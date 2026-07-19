@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import CoffeeForm from '../components/CoffeeForm';
-import CoffeeList from '../components/CoffeeList';
+import CoffeeForm from '../components/CoffeeForm.jsx';
+import CoffeeList from '../components/CoffeeList.jsx';
 import { initialCoffeeList } from '../interfaces/coffeeData';
 
 const Dashboard = () => {
