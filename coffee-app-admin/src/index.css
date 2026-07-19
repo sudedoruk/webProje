@@ -1,0 +1,119 @@
+/*body {
+  background-color: #292215;
+  color: #F9F8F6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-coffee {
+  background-color: #55462B !important;
+  color: #FFFFFF !important;
+  border: 1px solid #C9B183 !important;
+}
+
+.btn-accent {
+  background-color: #C9B183 !important;
+  color: #292215 !important;
+  font-weight: bold !important;
+  border: none !important;
+}
+
+.btn-accent:hover {
+  background-color: #b59d6e !important;
+  color: #000000 !important;
+}
+
+.table-coffee {
+  --bs-table-bg: #55462B;
+  --bs-table-color: #FFFFFF;
+  --bs-table-border-color: #8C7A5B;
+}*/
+/* 1. Tüm Sayfa Arka Planı */
+body {
+  background-color: #261e14 !important;
+  color: #FFFFFF !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+/* 2. Ana Kartlar ve Form Alanları */
+.card-coffee {
+  background-color: #382c1e !important;
+  color: #FFFFFF !important;
+  border: 1px solid #7c6748 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 3. Butonlar */
+.btn-accent {
+  background-color: #d4b886 !important;
+  color: #1f1810 !important;
+  font-weight: 700 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-accent:hover {
+  background-color: #e6cd9e !important;
+  color: #000000 !important;
+  transform: translateY(-2px);
+}
+
+/* 4. Menü Listesi - İçteki İkinci Kutu Çerçevesini ve Arka Planı Tamamen Sildik! */
+.table-responsive {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.table-coffee {
+  --bs-table-bg: transparent !important;
+  --bs-table-color: #FFFFFF !important;
+  --bs-table-border-color: #4f3f2c !important;
+  margin-bottom: 0 !important;
+}
+
+/* Tablo Başlıkları - Başlığın hemen altında temizce dursun */
+.table-coffee thead th {
+  background-color: transparent !important;
+  color: #d4b886 !important;
+  border-bottom: 2px solid #7c6748 !important;
+  font-weight: 600;
+  padding: 12px 8px;
+}
+
+.table-coffee tbody td {
+  background-color: transparent !important;
+  color: #FFFFFF !important;
+  padding: 16px 8px !important;
+  border-bottom: 1px solid #4f3f2c !important;
+  font-weight: 500;
+}
+
+/* Satırın Üzerine Fare İle Gelindiğinde Hafif Parlama */
+.table-coffee tbody tr:hover td {
+  background-color: #423424 !important;
+  color: #FFFFFF !important;
+}
+
+/* Form İçindeki Girdi Kutuları */
+.form-control, .form-select {
+  background-color: #231b12 !important;
+  border: 1px solid #5a4833 !important;
+  color: #FFFFFF !important;
+  border-radius: 8px !important;
+}
+
+.form-control:focus, .form-select:focus {
+  background-color: #1c150e !important;
+  border-color: #d4b886 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 0 0 0.25rem rgba(212, 184, 134, 0.25) !important;
+}
+/* Kategori Rozeti (Badge) Özel Rengi */
+.badge.bg-secondary {
+  background-color: #1a140e !important; /* Arka planı koyu kahve yaptık */
+  color: #FFFFFF !important; /* Yazısını altın sarısı yaptık */
+  border: 1px solid #7c6748 !important; /* çerçeve ekledik */
+}
