@@ -43,6 +43,7 @@ coffee-app-admin/
     └── index.css           # Özelleştirilmiş koyu kahve / kurumsal tema stilleri
 
 ## 🛠️ Kullanılan Teknolojiler
+
 Frontend: React.js (Vite), HTML5, CSS3
 
 UI Kütüphanesi: Bootstrap 5 & Bootstrap Icons
