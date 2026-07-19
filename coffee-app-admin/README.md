@@ -41,7 +41,9 @@ coffee-app-admin/
     ├── App.jsx             # Ana bileşen kurgusu
     ├── main.jsx            # React DOM başlatıcı dosya
     └── index.css           # Özelleştirilmiş koyu kahve / kurumsal tema stilleri
+```
 ---
+
 ## 🛠️ Kullanılan Teknolojiler
 
 * **Frontend:** React.js (Vite), HTML5, CSS3
